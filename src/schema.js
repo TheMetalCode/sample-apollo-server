@@ -27,7 +27,7 @@ const typeDefs = gql`
   }
 
   type TripUpdateResponse {
-    success: String
+    success: Boolean!
     message: String
     launches: [Launch]
   }
