@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "start": "nodemon src/index.js",
-    "start:ci": "node src/index.js"
+    "start:ci": "node src/index.js",
+    "engine:check": "npx apollo service:check --endpoint=https://sample-apollo-server.herokuapp.com",
+    "engine:push": "npx apollo service:push --endpoint=https://sample-apollo-server.herokuapp.com"
   },
   "author": "",
   "license": "ISC",
