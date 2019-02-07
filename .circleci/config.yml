@@ -2,7 +2,6 @@ version: 2.1
 
 executors:
   build_container:
-    resource_class: small
     working_directory: ~/workspace
     docker:
       - image: circleci/node:10
