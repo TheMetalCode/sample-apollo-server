@@ -53,7 +53,7 @@ const typeDefs = gql`
 
   type Rocket {
     id: ID!
-    name: String
+    name: String @deprecated(reason: "Because I feel like it")
     type: String
   }
 
