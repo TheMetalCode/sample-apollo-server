@@ -52,8 +52,7 @@ module.exports.createStore = () => {
     createdAt: SQL.DATE,
     updatedAt: SQL.DATE,
     email: SQL.STRING,
-    token: SQL.STRING,
-    eatsBacon: SQL.STRING
+    token: SQL.STRING
   });
 
   const trips = db.define('trip', {
